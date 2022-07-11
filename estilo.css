@@ -1,5 +1,5 @@
 .fondo-nav {
-  background-color: #ce111a;
+  background-color: rgb(206, 17, 26);
 }
 
 .jumbotron {
@@ -7,20 +7,19 @@
   background-size: cover;
   background-position: center;
   height: 450px;
-  color: #1f4b18;
-  text-shadow: 2px 2px 5px #c9c2c2;
+  color: rgb(31, 75, 24);
+  text-shadow: 2px 2px 5px rgb(201, 194, 194);
   border-radius: 0;
   margin-bottom: 0;
 }
-
 .jumbotron p {
   font-size: 24px;
-  color: #080e08;
+  color: rgb(8, 14, 8);
 }
 
 h2 {
   text-align: center;
-  background-color: #ce111a;
+  background-color: rgb(206, 17, 26);
   color: white;
   text-transform: capitalize;
   padding: 10px;
@@ -29,7 +28,7 @@ h2 {
 .nosotros {
   height: 500px;
   width: 100%;
-  background-color: #7deef1;
+  background-color: rgb(125, 238, 241);
 }
 
 .row {
@@ -37,6 +36,14 @@ h2 {
 }
 
 .nleft {
+  background-color: rgb(137, 180, 218);
+  background-image: url(/img/mercadogc.jpg);
+  background-size: cover;
+  background-position: right;
+  /* height: 400px; */
+}
+
+.nleftempr {
   background-color: #89b4da;
   background-image: url(/img/mercadogc.jpg);
   background-size: cover;
@@ -45,9 +52,9 @@ h2 {
 }
 
 .nright {
-  background-color: #a9db7b;
+  background-color: rgb(169, 219, 123);
   padding: 20px;
-  color: #3d3d36;
+  color: rgb(61, 61, 54);
 }
 
 .nright h3 {
@@ -67,7 +74,7 @@ h2 {
 .nright p::first-letter {
   font-size: 30px;
   color: blueviolet;
-  text-shadow: 0 0 5px #313030;
+  text-shadow: 0 0 5px rgb(49, 48, 48);
 }
 
 .newsletter {
@@ -76,7 +83,6 @@ h2 {
   background-color: grey;
   padding: 50px;
 }
-
 .newsletter h3 {
   color: blueviolet;
   text-align: center;
@@ -92,20 +98,8 @@ h2 {
 
 /* focus: al escribir se va a ver en el color que le hemos puesto(violeta) */
 .newsletter input:focus {
-  color: #7776c2;
-  background-color: #5c5757;
-}
-
-.newsletter input::-webkit-input-placeholder {
-  color: blueviolet;
-}
-
-.newsletter input:-ms-input-placeholder {
-  color: blueviolet;
-}
-
-.newsletter input::-ms-input-placeholder {
-  color: blueviolet;
+  color: rgb(119, 118, 194);
+  background-color: rgb(92, 87, 87);
 }
 
 .newsletter input::placeholder {
@@ -113,22 +107,20 @@ h2 {
 }
 
 .card a:hover {
-  background-color: #41df3c;
+  background-color: rgb(65, 223, 60);
 }
 
 .footer {
   min-height: 100px;
-  background-color: #ce111a;
+  background-color: rgb(206, 17, 26);
   width: 100%;
   text-align: center;
   padding: 20px;
 }
-
 .footer p {
   font-size: 20px;
   text-transform: capitalize;
 }
-
 .footer a {
   color: #333;
 }
@@ -141,4 +133,5 @@ h2 {
   font-size: 30px;
   letter-spacing: 25px;
 }
+
 /*# sourceMappingURL=estilo.css.map */
